@@ -1,0 +1,178 @@
+/* 
+Styles.css
+
+All the styling for each objects in the html file
+
+Author: Katherine Cholowski
+Since: 2024-01-14
+*/
+
+/* All the styling for the body of the website*/
+body {
+    /* Set the background as an image */
+    background-image: url("background.jpg");
+
+    background-size: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* Make it so that it is scrollable if the content goes past the end of the page */
+    overflow-y: auto;
+  }
+
+  /* All styling for the navigation bar */
+  nav {
+    /* Changing background colour */
+    background-color: #5a6d45d8;
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+  }
+
+    /* All styling for the unordered list*/
+    ul{
+      /* Getting rid of the bullet points */
+      list-style-type: none;
+
+      /* Getting rid of the margin and padding */
+      margin: 0;
+      padding: 0;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+      /* All the styling for the anchors in the nav bar */
+      .topnav a{
+        /* Changing the colour of the text */
+        color: #fff;
+
+        float: left;
+        text-align: center;
+
+        /* Adding padding to the top and right so that they are spaced out */
+        padding: 14px 16px;
+
+        text-decoration: none;
+
+        /* Making the font size bigger */
+        font-size: 17px;
+      }
+
+  /* All styling for the header */
+  h1 {
+    /* Making the font italicized */
+    font-style: italic;
+  }
+
+  /* All the styling for the paragraphs */
+  p{
+    /* Making the font bolder */
+    font-weight: 600;
+  }
+
+  /* All styling for the overall div holding all the sections */
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* Adding padding so that it is below the nav bar */
+    padding-top: 50px;
+  }
+
+  /* All the styling for the scroll class */
+  .scroll {
+    /* Making it so that the body of the website is scrollable */
+    overflow-y: auto;
+  }
+
+
+  /* Styling for all the sections */
+  section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* Getting rid of all the padding and margins */
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+  }
+
+  /* All styling for the sub-headers */
+  h2 {
+    /* Making the font bolder */
+    font-weight: 800;
+  }
+
+  /* All the styling for the totoro section*/
+  .totoro {
+    /* Change the background colour */
+    background-color: #a7eb5e97;
+  }
+
+    /* All styling for the totoro anchor */
+    #totoroA {
+      /* Making it so that the section title is not hidden when using the anchor */
+      display: block;
+      position: relative;
+      top: -45px;
+      visibility: hidden;
+    }
+
+  /* All the styling for the Jujutsu kaisen section */
+  .jjk {
+    /* Making a background gradient so it blend with the sections above and below */
+    background: linear-gradient(#a7eb5e97, #d7eac397, #a7eb5e97);
+  }
+
+    /* All the styling for the jjk anchor */
+    #jjkA {
+      /* Making it so that the section title is not hidden when using the anchor */
+      display: block;
+      position: relative;
+      top: -45px;
+      visibility: hidden;
+    }
+
+  /* All the styling for the attack on titan section */
+  .aot {
+    background-color: #a7eb5e97;
+  }
+
+    /* All the styling for the aot anchor */
+    #aotA {
+      /* Making it so that the section title is not hidden when using the anchor */
+      display: block;
+      position: relative;
+      top: -45px;
+      visibility: hidden;
+    }
+
+    /* All the styling for the images */
+  img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* All the styling for the footer */
+  footer {
+    font-size: larger;
+    color: #fff;
+  }
